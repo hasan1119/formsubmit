@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form{
+            width: 550px;
+        }
+        input, textarea{
+            display: block;
+            width: 100%;
+            margin: 15px 0;
+            padding: 8px 0;
+        }
+        button{
+            padding: 5px 8px;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://formsubmit.co/hasan.webappsdeveloper@email.com" method="POST">
+
+     <input placeholder="Enter your name" type="text" name="name" required>
+
+     <input placeholder="Enter your email" type="email" name="email" required>
+
+     <textarea name="message" required></textarea>
+     
+     <button type="submit">Send</button>
+
+</form>
+</body>
+</html>
